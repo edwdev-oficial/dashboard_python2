@@ -12,6 +12,9 @@ def load_data():
 # Carregar os dados
 df = load_data()
 
+# Mostrar uma imagem
+st.image("./myPhoto.png", caption="edwDev", use_column_width=False, width=100)
+
 # Titulo da aplicação
 st.title("Gráfico de Pizza com Dados Aleatórios")
 
